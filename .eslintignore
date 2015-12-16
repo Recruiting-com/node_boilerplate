@@ -1,0 +1,7 @@
+dist
+src/public/dist
+mock_data
+npm-shrinkwrap.json
+webpack.config.js
+webpack.server.js
+webpack.backend.config.js

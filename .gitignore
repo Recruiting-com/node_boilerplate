@@ -1,0 +1,10 @@
+dist
+public/dist
+.idea
+.DS_Store
+node_modules
+npm-debug.log
+npm-debug.log.*
+test.php
+recruiting-capture-widget.iml
+elm-stuff

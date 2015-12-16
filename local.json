@@ -1,0 +1,13 @@
+{
+  "domain": "127.0.0.1",
+  "port": 3000,
+  "webpack_port": 8182,
+  "publicDir": "./dist",
+  "cacheTimeout": 2592000000,
+  "cachePrivacy": "private",
+  "secret": "CHANGE THIS",
+  "apiKey": "CHANGE THIS",
+  "ApiVersion": "4.2",
+  "ApiDomain": "https://api-staging.recruiting.com/jediwidget/json",
+  "StandardApiDomain": "https://api.recruiting.com/4.2/json"
+}

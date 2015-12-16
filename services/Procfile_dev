@@ -1,0 +1,3 @@
+dev_frontend_js: NODE_ENV=DEV npm run webpack-dev
+dev-crm-sass-watch: NODE_ENV=DEV npm run dev-sass-watch
+dev_server_logs: npm run pm2 logs node_boilerplate
