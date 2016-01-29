@@ -1,6 +1,6 @@
 {
   "apps" : [{
-    "name": "node_boilerplate",
+    "name": "jira_service",
     "script": "./src/server/index.js",
     "node_args": "-optimize_for_size --max_old_space_size=460 --gc_interval=100",
     "watch": true,

@@ -1,5 +1,5 @@
 BIN = ./node_modules/.bin
-package_name = node_boilerplate
+package_name = jira_service
 tarball_name = $(package_name).tar.gz
 temp_directory = /tmp/builds/jobing
 application_path = ~/www/jobing
@@ -23,9 +23,7 @@ build:
 	NODE_ENV=production $(BIN)/webpack
 
 dev:
-	rm -rf $(dist_path)
 	$(BIN)/pm2 kill
-	NODE_ENV=dev $(BIN)/node-sass ./src/public/scss -o ./src/public/dist/css
 	$(BIN)/pm2 flush
 	NODE_ENV=dev $(BIN)/pm2 startOrRestart ./services/pm2_dev_config.json
 	foreman start -f ./services/Procfile_dev
